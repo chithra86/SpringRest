@@ -1,0 +1,9 @@
+Encryption Type
+
+As we know, there are 2 basic types of encryption - Asymmetric and Symmetric encryption. Asymmetric encryption uses two different keys as public and private keys.Here, you can encrypt sensitive information with a public key and a matching private key is used to decrypt the same.Asymmetric encryption is mostly used when there are 2 different endpoints are involved such as VPN client and server, SSH etc.
+
+Similarly, we have another encryption technique called as Symmetric encryption.This type of encryption uses a single key known as private key or secret key to encrypt and decrypt sensitive information.This type of encryption is very fast as compared to asymmetric encryption and are used in systems such as database system.Some examples of symmetric encryptions are Twofish, Blowfish, 3 DES, AES.
+
+What is AES Encryption
+
+AES stands for Advanced Encryption System and its a symmetric encryption algorithm.It is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.Here is the wiki link for AES.The AES engine requires a plain-text and a secret key for encryption and same secret key is required to again decrypt it.

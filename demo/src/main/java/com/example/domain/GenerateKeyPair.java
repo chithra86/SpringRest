@@ -1,27 +1,30 @@
 package com.example.domain;
 
+import java.security.PrivateKey;
+import java.security.PublicKey;
+
 import org.springframework.stereotype.Component;
 
 @Component
 public class GenerateKeyPair {
 	
-	private byte[] publicKey;
+	private PublicKey publicKey;
 	
-	private byte[] privateKey;
+	private PrivateKey privateKey;
 
-	public byte[] getPublicKey() {
+	public PublicKey getPublicKey() {
 		return publicKey;
 	}
 
-	public void setPublicKey(byte[] publicKey) {
+	public void setPublicKey(PublicKey publicKey) {
 		this.publicKey = publicKey;
 	}
 
-	public byte[] getPrivateKey() {
+	public PrivateKey getPrivateKey() {
 		return privateKey;
 	}
 
-	public void setPrivateKey(byte[] privateKey) {
+	public void setPrivateKey(PrivateKey privateKey) {
 		this.privateKey = privateKey;
 	}
 	
